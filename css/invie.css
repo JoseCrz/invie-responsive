@@ -266,3 +266,11 @@ input, textarea {
 .tabla {
   margin: 120px auto;
 }
+
+/*MEDIA QUERIES */
+
+@media screen and (max-width: 800px) {
+  body {
+    background: greenyellow;
+  }
+}
