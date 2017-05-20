@@ -323,6 +323,44 @@ input, textarea {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .footer .contenedor {
+    display: block;
+  }
+
+  .contacto {
+    margin: 0 auto;
+  }
+
+  .formulario {
+    display: block;
+    margin: auto;
+    width: 300px;
+  }
+
+  .intereses label {
+    display: block;
+    font-size: 15px;
+  }
+
+  input[type="text"], input[type="email"] {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .col1 {
+    margin: 0;
+  }
+
+  input[type="radio"], input[type="checkbox"] {
+    zoom: 1.5;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .header {
     text-align: center;
