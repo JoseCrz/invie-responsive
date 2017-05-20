@@ -317,6 +317,10 @@ input, textarea {
     margin: 0;
     position: static;
   }
+
+  .contenedor-guitarra-a {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -343,6 +347,7 @@ input, textarea {
 }
 
 @media screen and (max-width: 500px) {
+  /*PORTADA*/
   .menu li{
     display: block;
     margin: 0;
@@ -368,5 +373,16 @@ input, textarea {
 
   .title-a {
     font-size: 15px;
+  }
+
+  /*GUITARRA*/
+
+  .guitarra img {
+    width: 200px;
+    height: auto;
+  }
+
+  .title-b {
+    font-size: 30px;
   }
 }
