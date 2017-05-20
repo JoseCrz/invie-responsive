@@ -341,3 +341,32 @@ input, textarea {
     padding: 0;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .menu li{
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+  }
+
+  .menu li::before {
+    display: none;
+  }
+
+  .menu li:first-child {
+    border-top: 1px solid white;
+  }
+
+  .portada {
+    text-align: center;
+  }
+
+  .titulo {
+    font-size: 35px;
+  }
+
+  .title-a {
+    font-size: 15px;
+  }
+}
