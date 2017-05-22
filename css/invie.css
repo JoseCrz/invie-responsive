@@ -442,6 +442,25 @@ input, textarea {
 
 @media screen and (max-width: 500px) {
   /*PORTADA*/
+
+  .portada .contenedor {
+    position: static;
+  }
+
+  .menu {
+    background: rgba(255, 60, 88, .8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu ul {
+    flex: 1;
+  }
   .menu li{
     display: block;
     margin: 0;
