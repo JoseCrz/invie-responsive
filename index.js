@@ -4,6 +4,11 @@ var consulta = window.matchMedia("(max-width: 500px)")
 consulta.addListener(mediaQuery)
 
 
+var bLazy = new Blazy({
+  selector: 'img'
+})
+
+
 function mediaQuery () {
   if (consulta.matches) {
     console.log("Se cumplió la condición")
