@@ -327,11 +327,23 @@ article {
   top: 20px;
   left: 20px;
   z-index: 3;
+  color: white;
 }
 
 /*MEDIA QUERIES */
 
 @media screen and (max-width: 800px) {
+  /*PRECIOS*/
+  .tabla {
+    margin: 50px 20px;
+
+  }
+
+  .tabla .contenedor {
+    overflow: auto;
+    border: 1px solid #323D49;
+  }
+
   /*PORTADA*/
 
   .titulo {
@@ -452,6 +464,14 @@ article {
   .portada .contenedor {
     position: static;
   }
+
+  .header {
+    position: static;
+  }
+  .header .contenedor {
+    position: static;
+  }
+
 
   .menu {
     background: rgba(255, 60, 88, .8);
