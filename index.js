@@ -23,4 +23,17 @@ function toggleMenu () {
   menu.classList.toggle("active")
 }
 
+function showMenu () {
+  menu.classList.add("active")
+}
+
+function hideMenu () {
+  menu.classList.remove("active")
+}
+
 mediaQuery()
+
+var body = document.body
+var gestos = new Hammer(body)
+gestos.on('swipeleft', hideMenu)
+gestos.on('swiperight', showMenu)
